@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant And Child Selector in CSS</title>
+    <style>
+        article>ol>li {
+            background-color: greenyellow;
+            color: darkgreen;
+            font-size: 35px;
+            font-style: italic;
+        }
+        table th{
+            border: crimson solid 3px;
+            background-color: darkred;
+            color: rgb(252, 238, 234);
+            text-align: center;
+
+        }
+        
+    </style>
+</head>
+
+<body style="background-color: rgb(121, 242, 248); padding: 0; margin: 0;">
+    <nav class="navi" style="display: flex; justify-content: space-around; background-color: darkblue; color: cyan;">
+        <h1 style="font-style: italic" ;><b>SHRUTHI VENKATESH</b></h1>
+        <h2 style="font-style: italic" ;><b>2006144</b></h2>
+    </nav>
+    <!-- 3.Show an example of a descendant selector case. Create an ordered list within the article tag and use the child selector to change the background color of the list elements. -->
+    <article>
+       <b>Use Of Child Selector Property of CSS</b> 
+        <ol>
+            <li> <b>Name :Shruthi Venkatesh</b> </li>
+            <li> <b>College :National Institute Of Technology Patna </b></li>
+            <li> <b>Branch :Computer Science And Engineering </b></li>
+            <li> <b>Roll No:2006144 </b></li>
+        </ol>
+    </article>
+    
+    <table style="width: 50%;">
+        <B>Use Of Descendant Selector Property of CSS</B>
+        <tr>
+            <th>Sr.No</th>
+            <th>Course Code </th>
+            <th>Course Title</th>
+            <th>Topic </th>
+        </tr>
+        <tr>
+            <th rowspan="888">01</th>
+            <th>CSL3403</td>
+            <th>Web Technology Lab</th>
+            <th>Child And Descendant Selector Examples </th>
+        </tr>
+       </table>
+       <marquee width="100%" direction="left" height="50px" style="font-size: 45px; color: darkblue; ">
+        <b>Thank You Visit Again</b>
+    </marquee>
+
+</body>
+
+</html>
