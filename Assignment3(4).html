@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of Class+Element Selector </title>
+    <style>
+        .Big{
+          font-size: 35px;
+          font-style: italic;
+        }
+        p.Big{
+            background-color: darkgreen;
+            color: greenyellow;
+        }
+        
+    </style>
+</head>
+<body style="background-color: rgb(121, 242, 248); padding: 0; margin: 0;">
+    <nav class="navi" style="display: flex; justify-content: space-around; background-color: darkblue; color: cyan;">
+        <h1 style="font-style: italic" ;><b>SHRUTHI VENKATESH</b></h1>
+        <h2 style="font-style: italic" ;><b>2006144</b></h2>
+    </nav>
+
+    <div class="Big">
+        This is a div with class name as Big.In this i'll Change the Font Size to 35 px but not background color to green By using CSS Property (.Big),Since this is not a paragraph but only a div with same class name "Big".
+    </div>
+
+    <p class="Big">
+       This is a paragraph Tag with Same class name as Div tag Which is Big.Here i will use CSS (p.Big) property of Selecting a Paragraph With Big class to change the background colour to green.
+       <br> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum corporis, maiores magni repellat mollitia quam consequuntur soluta pariatur! Recusandae aperiam accusantium ipsa id aut quia et amet iure nam unde consequuntur maxime consequatur soluta voluptate modi eum, blanditiis dolorem tenetur sapiente quibusdam eaque, nisi harum. Quia voluptatibus amet facere.
+    </p>
+    <div>
+        In this page I have used Paragraph + Big Selector Property (.Big) of CSS to Change the background color and color of paragraph Tag having Big class 
+        <br>
+        Also I have used Only Big Class To change the font size Of Any tag having Big class. 
+    </div>
+    <marquee width="100%" direction="left" height="50px" style="font-size: 45px; color: darkblue; ">
+        <b>Thank You Visit Again</b>
+    </marquee>
+</body>
+</html>
