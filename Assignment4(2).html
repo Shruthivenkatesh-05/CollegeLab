@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+</head>
+<style>
+  img {
+    width: 500px;
+    max-height: 75vh;
+    min-width: 0;
+  }
+
+  .scenery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-grow: 10;
+    gap: 10px;
+
+  }
+
+  h1 {
+    color:cyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px;
+    background-image: linear-gradient(rgb(4, 68, 9), lime);
+    padding: 30px;
+  }
+</style>
+
+<body style="background-color: lightgreen; padding: 0; margin: 0;">
+  <nav class="navi" style="display: flex; justify-content: space-around; background-color: darkblue; color: cyan;">
+    <h2 style="font-style: italic" ;><b>SHRUTHI VENKATESH</b></h1>
+      <h2 style="font-style: italic" ;><b>2006144</b></h2>
+  </nav>
+  <h1>Love Nature</h1>
+  <div class="scenery">
+    <img src="/braden-jarvis-prSogOoFmkw-unsplash.jpg" alt="">
+    <img src="/jakob-owens-_SXxTHUkCwE-unsplash.jpg" alt="">
+    <img src="/steve-halama-kJqXzt-B-hI-unsplash.jpg" alt="">
+    <img src="/rohan-aggarwal-EShGwCZs3Nc-unsplash.jpg" alt="">
+    <img src="/maxime-bui-ZZvnCHl_c6M-unsplash.jpg" alt="">
+  </div>
+</body>
+
+</html>
