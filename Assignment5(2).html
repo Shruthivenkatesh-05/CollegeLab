@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scopes of Variable</title>
+    <script type="text/javascript" src="test2.js"></script>
+    <style>
+        pre {
+            background-color: darkblue;
+            color:cyan;
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        body {
+            background-image: url("picc2.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .button {
+
+            background-color: darkblue;
+            color:cyan;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 25px;
+            border-radius: 25px;
+            border: cyan solid 10px;
+        }
+        p{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(121, 242, 248); padding: 0; margin: 0;">
+    <nav class="navi" style="display: flex; justify-content: space-around; background-color: darkblue; color: cyan;">
+        <h1 style="font-style: italic" ;><b>SHRUTHI VENKATESH</b></h1>
+        <h2 style="font-style: italic" ;><b>2006144</b></h2>
+    </nav>
+    <h1 style="color: darkblue;">Welcome to JavaScript</h1>
+    <pre>
+        In this Page We will learn the Scope of Variables in Javascript 
+        Here I have used a global variable name "message" whose value is being changed inside
+        the Function A then its changed value is only inside this function A
+        Its value remains the same as before in global </pre>
+        <p>
+          <input type="button" class="button" value="click for Function A" onclick="FunctionA()" />
+        <input type="button" class="button" value="click for Function B" onclick="FunctionB()" />
+        <input type="button" class="button" value="click for Global Var" onclick="console.log(message);"/>  
+        </p>
+        
+        <marquee width="100%" direction="left" height="50px" style="font-size: 45px; color:darkblue; ">
+            <b>Thank You Visit Again</b>
+        </marquee>
+</body>
+</html>
