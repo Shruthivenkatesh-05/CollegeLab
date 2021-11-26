@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Objects </title>
+    <script src="test.js"></script>
+    <style>
+        body {
+            background-image: url("back\ ground\ image.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+
+        button {
+            background-color: darkblue;
+            border: none;
+            color: cyan;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .h1{
+            text-align: center;
+            color:darkblue;
+        }
+    </style>
+      
+
+</head>
+
+<body style="background-color: rgb(121, 242, 248); padding: 0; margin: 0;">
+    <nav class="navi" style="display: flex; justify-content: space-around; background-color: darkblue; color: cyan;">
+        <h1 style="font-style: italic" ;><b>SHRUTHI VENKATESH</b></h1>
+        <h2 style="font-style: italic" ;><b>2006144</b></h2>
+    </nav>
+
+    <h1 class="h1">Java Script Objects </h1>
+    <div class="row">
+        <div class="column">
+            <img src="person1.png" alt="Snow" style="width:50%">
+            <br>
+            <button onclick="Display_FirstName1()">FirstName</button>
+            <button onclick="Display_LastName1()">LastName</button>
+            <button onclick="Display_Address1()">Address</button>
+            <button onclick="Display_Properties1()">Properties</button>
+        </div>
+        <div class="column">
+            <img src="person2.png" alt="Forest" style="width:50%">
+            <br>
+            <button onclick="Display_FirstName2()">FirstName</button>
+            <button onclick="Display_LastName2()">LastName</button>
+            <button onclick="Display_Address2()">Address</button>
+            <button onclick="Display_Properties2()">Properties</button>
+        </div>
+        <div class="column">
+            <img src="person3.png" alt="Mountains" style="width:50%">
+            <br>
+            <button onclick="Display_FirstName3()">FirstName</button>
+            <button onclick="Display_LastName3()">LastName</button>
+            <button onclick="Display_Address3()">Address</button>
+            <button onclick="Display_Properties3()">Properties</button>
+        </div>
+    </div>
+    <marquee width="100%" direction="left" height="50px" style="font-size: 45px; color: darkblue; ">
+        <b>Thank You Visit Again</b>
+    </marquee>
+</body>
+
+</html>
